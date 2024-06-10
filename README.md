@@ -24,10 +24,10 @@ You can install these libraries using pip:
 pip install pandas numpy matplotlib statsmodels
 ```
 ## Usage
-1. Load the Data: The dataset is loaded from an Excel file using pandas.
-2. Data Preprocessing: The data is transformed using logarithmic transformation and differencing to obtain a stationary time series.
-3. Model Fitting: The ARIMA model is fitted to the preprocessed data.
-4. Forecasting: The model is used to forecast future inflation values.
+1. **Load the Data**: The dataset is loaded from an Excel file using pandas.
+2. **Data Preprocessing**: The data is transformed using logarithmic transformation and differencing to obtain a stationary time series.
+3. **Model Fitting**: The ARIMA model is fitted to the preprocessed data.
+4. **Forecasting**: The model is used to forecast future inflation values.
 
 ## Results
 The ARIMA model provides a forecast for the next 12 months based on the historical inflation data. The results are visualized using matplotlib.
